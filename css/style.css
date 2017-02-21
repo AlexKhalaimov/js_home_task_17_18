@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&subset=cyrillic-ext');
+
+body{
+    font-family: 'Roboto',  sans-serif;
+}
+.wrapper{
+    width: 460px;
+    margin: 0 auto;
+
+}
+.weatger-wrapper{
+    margin: 50px auto;
+    max-width: 500px;
+    float: left;
+}
+.weather{
+
+    border-collapse: collapse;
+    font-weight: 300;
+}
+.weather   tbody{
+    box-sizing: border-box;
+}
+.weather  tr{
+    box-sizing: border-box;
+}
+.weather  td{
+    border: 1px solid #ddd;
+    width: 180px;
+    text-align: center;
+}
+.weather  tr:nth-child(even){
+    background-color: #ddd;
+
+}
+.weather  tr:nth-child(odd){
+    background-color: #f9f9f9;
+
+}
+.weather  td:first-child{
+    text-align: left;
+    padding-left: 5px;
+}
+#button{
+    background-color: #007add;
+    border-color: #007add;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#button:hover{
+    background-color: #0890ff;
+}
+.currency{
+    border-collapse: collapse;
+    background: -webkit-linear-gradient(top,#f7f7f7 0,#ededed 100%);
+
+}
+.currency-wrapper>h4{
+    text-align: center;
+}
+.currency  td{
+    border: 1px solid rgb(128, 128, 128);
+    width: 100px;
+    border-radius: 5px;
+}
+.t_head>td{
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+}
+.t_head>td:first-child{
+    text-align: left;
+}
+.currency-wrapper{
+    width: 219px;
+    height: auto;
+    border-radius: 5px;
+    margin: 0 auto;
+
+}
+.buy, .sale{
+    text-align: center;
+}

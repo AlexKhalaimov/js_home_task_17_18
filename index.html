@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/distr/script.main.js"></script>
+    <!-- <script src="js/distr/script.main.min.js"></script> -->
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="currency-wrapper">
+            <h4>Готівковий курс обміну валют в Приватбанк на:&nbsp;<span id = "current_date"></span></h3>
+            <table class = "currency">
+                <tr class="t_head">
+                    <td>Валюта</td>
+                    <td>купівля</td>
+                    <td>продаж</td>
+                </tr>
+                <tr class = "usd">
+                    <td>USD</td>
+                    <td class = "buy"></td>
+                    <td class = "sale"></td>
+                </tr>
+                <tr class = "eur">
+                    <td>EUR</td>
+                    <td class="buy"></td>
+                    <td class="sale"></td>
+                </tr>
+                <tr class = "rur">
+                    <td>RUR</td>
+                    <td class="buy"></td>
+                    <td class="sale"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="weatger-wrapper">
+            <div class="header">
+                <p>Погода в м. Київ на:&nbsp;<span id = "new_date"></span></p>
+            </div>
+            <table class="weather">
+                <tr ><td>вологість, %</td><td id = "humidity">&nbsp;</td></tr>
+                <tr ><td>тиск, мм рт.ст.</td><td id = "pressure">&nbsp;</td></tr>
+                <tr><td>температура, &deg;С</td ><td id = "temp">&nbsp;</td></tr>
+                <tr><td>швидкість вітру, м/c</td><td id = "wind_speed">&nbsp;</td></tr>
+                <tr><td>напрямок вітру</td><td id = "wind_direct">&nbsp;</td></tr>
+
+            </table>
+            <button type="button" name="button" id = "button">Отримати погоду</button>
+            <footer>
+                <p>
+                    Погоду надано за допомогою сервісу: <a href="http://openweathermap.org">openweathermap.org</a>
+
+                </p>
+            </footer>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
