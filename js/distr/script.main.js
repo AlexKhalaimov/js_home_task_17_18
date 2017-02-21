@@ -43,7 +43,7 @@ $(function () {
     );
 });
 ;$(function () {
-    var url = 'http://api.openweathermap.org/data/2.5/weather?q=Kiev,ua&units=metric&APPID=edfe6348fe52e5ac884f9fe6b8a4e34b';
+    var url = 'https://api.openweathermap.org/data/2.5/weather?q=Kiev,ua&units=metric&APPID=edfe6348fe52e5ac884f9fe6b8a4e34b';
     var date = new Date();
     var time = new Intl.DateTimeFormat("ua", {
   weekday: "long",
