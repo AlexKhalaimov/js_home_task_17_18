@@ -1,0 +1,9 @@
+{
+  "name": "weather_pb_api",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^2.1.0"
+  }
+}
